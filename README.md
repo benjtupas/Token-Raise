@@ -26,40 +26,12 @@ cd YOUR_PROJECT_FOLDER
 
 3. Initialize project and install dependencies
 
-<<<<<<< HEAD
-Solidity
-```
-npm install --save solc // Solidity
-```
-
-Web3
-```
-npm install --save web3@1.0.0-beta.35
-```
-
-Ganache - To test blockchain locally
-```
-npm install --save ganache-cli
-```
-
-Mocha - For testing
-```
-npm install --save mocha
-```
-
-For managing filesystem
-```
-npm install --save fs-extra
-
-```
-=======
 - Initialiaze - `npm init`
 - Solidity - `npm install --save solc`
 - Web3 - `npm install --save web3@1.0.0-beta.35`
 - Ganache (test blockchain locally) - `npm install --save ganache-cli`
 - Mocha (testing) - `npm install --save mocha`
 - Managing filesystem - `npm install --save fs-extra`
->>>>>>> 6598e9b2885f213cf353e5c6c5047584088aab9f
 
 Warning: You can install all of them in one go but it would be better
 to install 1 by 1 so you can easily see the logs when it raises an error
@@ -71,12 +43,6 @@ and deprecated libraries.
 
 # Node JS Commands
 
-<<<<<<< HEAD
 1. Run locally - `npm run start`
 2. Run test scripts - `npm run test`
 3. Deploy - `node deploy.js`
-=======
-1. Run locally `npm run start`
-2. Run test scripts `npm run test`
-3. Deploy `node deploy.js`
->>>>>>> 6598e9b2885f213cf353e5c6c5047584088aab9f
