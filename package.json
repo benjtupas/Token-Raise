@@ -1,0 +1,19 @@
+{
+  "name": "token-raise",
+  "version": "1.0.0",
+  "description": "Create your own token based of Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjtupas/Token-Raise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjtupas/Token-Raise/issues"
+  },
+  "homepage": "https://github.com/benjtupas/Token-Raise#readme"
+}
