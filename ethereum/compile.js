@@ -6,29 +6,21 @@ const filesystem = require('fs-extra');
 const pathBuild = path.resolve(__dirname, 'build');
 filesystem.removeSync(pathBuild);
 
-// Access contracts
-//const pathTokenSale = path.resolve(__dirname, 'contracts', 'TokenSale.sol');
-const pathCampaign = path.resolve(__dirname, 'contracts', 'Campaign.sol');
+// Build Contracts
+function buildContract(filename) {
+    const filePath = path.resolve(__dirname, 'contracts', filename);
+    const fileContent = filesystem.readFileSync(filePath, 'utf8');
+    const contracts = solc.compile(fileContent, 1).contracts;
 
-//const fileTokenSale = filesystem.readFileSync(pathTokenSale, 'utf8');
-const fileCampaign = filesystem.readFileSync(pathCampaign, 'utf8');
+    filesystem.ensureDirSync(pathBuild);
 
-//const contractTokenSale = solc.compile(fileTokenSale, 1).contracts;
-const contractCampaign = solc.compile(fileCampaign, 1).contracts;
-
-// Save compiled contracts to build directory
-filesystem.ensureDirSync(pathBuild);
-
-// for(let contract in contractTokenSale) {
-//     filesystem.outputJsonSync(
-//         path.resolve(pathBuild, contract + '.json'),
-//         contractTokenSale[contract]
-//     );
-// }
-
-for(let contract in contractCampaign) {
-    filesystem.outputJsonSync(
-        path.resolve(pathBuild, contract + '.json'),
-        contractCampaign[contract]
-    );
+    for(let contract in contracts) {
+        filesystem.outputJsonSync(
+            path.resolve(pathBuild, contract.replace(':', '') + '.json'),
+            contracts[contract]
+        );
+    }
 }
+
+buildContract('Campaign.sol');
+buildContract('TokenSale.sol');

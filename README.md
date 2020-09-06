@@ -27,15 +27,18 @@ cd YOUR_PROJECT_FOLDER
 3. Initialize project and install dependencies
 
 - Initialiaze - `npm init`
-- Solidity - `npm install --save solc`
+- Solidity - `npm install solc@0.4.25`
 - Web3 - `npm install --save web3@1.0.0-beta.35`
 - Ganache (test blockchain locally) - `npm install --save ganache-cli`
 - Mocha (testing) - `npm install --save mocha`
 - Managing filesystem - `npm install --save fs-extra`
 
-Warning: You can install all of them in one go but it would be better
+Notes:
+- You can install all of them in one go but it would be better
 to install 1 by 1 so you can easily see the logs when it raises an error
-and deprecated libraries.
+and/or deprecated libraries.
+- Ethereum is very unstable. Moving from 1 version to another will
+break things. Use the appropriate versions.
 
 # Resources to Get Started
 
