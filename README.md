@@ -3,7 +3,7 @@
 - Create token based of Ethereum
 - Develop token raise website
 
-# Project Guide:
+# Important Folders
 
 1. app
 
@@ -16,13 +16,16 @@
 - I use [Remix](http://remix.ethereum.org/) by Ethereum tool write and
 test contracts before adding it to the project
 
+3. test
+
+- To automate testing using [Mocha](https://mochajs.org/)
+- Compile the contracts: `node ethereum/compile.js`
+- Run the tests: `npm run test`
+
 # Steps to create app:
 
 1. Install [NodeJS](https://nodejs.org)
-2. Create your project folder and go there.
-```
-cd YOUR_PROJECT_FOLDER
-```
+2. Create your project folder and go there. - `cd YOUR_PROJECT_FOLDER`
 
 3. Initialize project and install dependencies
 
