@@ -23,10 +23,34 @@ test contracts before adding it to the project
 ```
 cd YOUR_PROJECT_FOLDER
 ```
+
 3. Initialize project and install dependencies
 ```
 npm init
-npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.35
+npm install --save ganache-cli
+npm install --save mocha
+npm install --save solc
+npm install --save fs-extra
+npm install --save web3@1.0.0-beta.35
+```
+
+Warning: You can install all of them in one go but it would be better
+to install 1 by 1 so you can easily see the logs when it raises an error
+and deprecated libraries.
+
+# Node JS Commands
+
+1. Run locally
+```
+npm run start
+```
+2. Run test scripts
+```
+npm run test
+```
+3. Deploy
+```
+node deploy.js
 ```
 
 # Resources and Tools
