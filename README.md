@@ -27,16 +27,43 @@ cd YOUR_PROJECT_FOLDER
 3. Initialize project and install dependencies
 ```
 npm init
-npm install --save ganache-cli
-npm install --save mocha
-npm install --save solc
-npm install --save fs-extra
+```
+
+Solidity
+```
+npm install --save solc // Solidity
+```
+
+Web3
+```
 npm install --save web3@1.0.0-beta.35
+```
+
+Ganache - To test blockchain locally
+```
+npm install --save ganache-cli
+```
+
+Mocha - For testing
+```
+npm install --save mocha
+```
+
+
+
+For managing filesystem
+```
+npm install --save fs-extra
+
 ```
 
 Warning: You can install all of them in one go but it would be better
 to install 1 by 1 so you can easily see the logs when it raises an error
 and deprecated libraries.
+
+# Resources to Get Started
+
+1. Udemy Course: [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide)
 
 # Node JS Commands
 
@@ -52,7 +79,3 @@ npm run test
 ```
 node deploy.js
 ```
-
-# Resources and Tools
-
-1. Udemy Course: [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide)

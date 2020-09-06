@@ -1,6 +1,6 @@
 const path = require('path');
-const fs = require('fs');
 const solc = require('solc');
+const filesystem = require('fs-extra');
 
 const contractTokenSale = path.resolve(__dirname, 'contracts', 'TokenSale.sol');
 const source = fs.readFileSync(contractTokenSale, 'utf8');
