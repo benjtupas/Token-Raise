@@ -43,15 +43,6 @@ and deprecated libraries.
 
 # Node JS Commands
 
-1. Run locally
-```
-npm run start
-```
-2. Run test scripts
-```
-npm run test
-```
-3. Deploy
-```
-node deploy.js
-```
+1. Run locally `npm run start`
+2. Run test scripts `npm run test`
+3. Deploy `node deploy.js`
