@@ -1,7 +1,7 @@
 # Goals of the project:
 
-- Create your own token based of Ethereum
-- Launch your own Token Raise
+- Create token based of Ethereum
+- Develop token raise website
 
 # Project Guide:
 
