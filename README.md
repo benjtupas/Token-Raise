@@ -1,7 +1,13 @@
-# Goals of the project:
+# Goals of the project
 
 - Create a token based on Ethereum
 - Develop token raise website
+
+# Progress so Far 
+
+1. [Sample Staking](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/TokenSale.sol)
+2. [Company expenses budget requests and investors can approve](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/Campaign.sol)
+3. Connect Ethereum Contract with React JS
 
 # Important Folders
 
