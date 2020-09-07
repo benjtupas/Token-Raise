@@ -1,7 +1,7 @@
 # Goals of the project
 
 - Create a token based on Ethereum
-- Launch token raise website
+- Launch a website to raise tokens
 
 # Progress so Far
 
