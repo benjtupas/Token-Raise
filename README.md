@@ -62,6 +62,12 @@ const provider = new HDWalletProvider(
 ```
 
 3. `node ethereum/deploy.js`
+4. Please take note of the contract address when you deploy. You'll be needing this a lot.
+
+```
+Wallet Addres of the Contract Owner:  0xA8f84f1E530560a9297eaF3be146a5f32fCCEc81
+Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
+```
 
 # Resources to Get Started
 
