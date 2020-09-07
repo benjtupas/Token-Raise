@@ -28,7 +28,7 @@ test contracts before adding it to the project
 2. Create your project folder and go there. - `cd YOUR_PROJECT_FOLDER`
 3. Initialize project and install dependencies
 
-- Initialiaze - `npm init`
+- Initialiaze - `npm init` (Call this only when you just started the project. Don't call this if you're forking)
 - Solidity - `npm install solc@0.4.25`
 - Web3 - `npm install --save web3@1.0.0-beta.35`
 - Ganache (test blockchain locally) - `npm install --save ganache-cli`
