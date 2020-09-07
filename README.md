@@ -58,10 +58,10 @@ break things. Use the appropriate versions.
 
 # Import Configs
 
- Deploy to your own configuration by getting Mnemonic and RPC Server.
+Deploy to your own configuration by getting Mnemonic and RPC Server.
 
- Testing: [Ganache](https://trufflesuite.com/ganache)<br/>
- Live: [Infura](https://infura.io/)
+Testing: [Ganache](https://trufflesuite.com/ganache)
+Live: [Infura](https://infura.io/)
 
 Open `config.json`
 
