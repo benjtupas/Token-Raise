@@ -32,31 +32,7 @@ test contracts before adding it to the project
 - Compile the contracts: `node ethereum/compile.js`
 - Run the tests: `npm run test`
 
-# How to set-up the Project
-
-1. Install [NodeJS](https://nodejs.org)
-2. Create your project folder and go there. - `cd YOUR_PROJECT_FOLDER`
-3. Initialize project and install dependencies
-
-- Initialiaze - `npm init` (Don't call this if you're just forking the project. Call this only if you're creating a project)
-- Solidity - `npm install solc@0.4.25`
-- Web3 - `npm install --save web3@1.0.0-beta.35`
-- Ganache (test blockchain locally) - `npm install --save ganache-cli`
-- Mocha (testing) - `npm install --save mocha`
-- Managing filesystem - `npm install --save fs-extra`
-- Truffle wallet product - `npm install --save truffle-hdwallet-provider@0.0.3`
-- React - `npm install --save react`
-- NextJS (for routing) - `npm install --save next`
-- ReactDOM - `npm install --save react-dom`
-
-Notes:
-- You can install all of them in one go but it would be better
-to install 1 by 1 so you can easily see the logs when it raises an error
-and/or deprecated libraries.
-- Ethereum is very unstable. Moving from 1 version to another will
-break things. Use the appropriate versions.
-
-# Import Configs
+# Configs
 
 Deploy to your own configuration by getting Mnemonic and RPC Server.
 
@@ -84,25 +60,44 @@ Config.VARIABLE
 2. `npm run test`
 
 **B. Deploy**
-
 1. Run: `node ethereum-compile.js`
 2. Run: `node ethereum-deploy.js`
-3. Please take note of the contract address when you deploy. You'll be needing this a lot.
+3. Copy the Contract Address and update the `CONTRACT_ADDRESS` on `config.json`.
 
 ```
 Wallet Addres of the Contract Owner:  0xA8f84f1E530560a9297eaF3be146a5f32fCCEc81
 Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
 ```
 
-# Run the app
-
-I paste this in 1 go so I'll go back to the root folder always.
+# Run the pages
 
 ```
-cd app
-npm run start
-cd ..
+
 ```
+
+# Set-up from Scratch
+
+1. Install [NodeJS](https://nodejs.org)
+2. Create your project folder and go there. - `cd YOUR_PROJECT_FOLDER`
+3. Initialize project and install dependencies
+
+- Initialiaze - `npm init` (Don't call this if you're just forking the project. Call this only if you're creating a project)
+- Solidity - `npm install solc@0.4.25`
+- Web3 - `npm install --save web3@1.0.0-beta.35`
+- Ganache (test blockchain locally) - `npm install --save ganache-cli`
+- Mocha (testing) - `npm install --save mocha`
+- Managing filesystem - `npm install --save fs-extra`
+- Truffle wallet product - `npm install --save truffle-hdwallet-provider@0.0.3`
+- React - `npm install --save react`
+- NextJS (for routing) - `npm install --save next`
+- ReactDOM - `npm install --save react-dom`
+
+Notes:
+- You can install all of them in one go but it would be better
+to install 1 by 1 so you can easily see the logs when it raises an error
+and/or deprecated libraries.
+- Ethereum is very unstable. Moving from 1 version to another will
+break things. Use the appropriate versions.
 
 # Important Links
 

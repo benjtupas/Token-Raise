@@ -1,13 +1,12 @@
 const Config = require('./config.json');
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const Web3 = require('web3');
-
-const generator = require('./ethereum/build/CampaignGenerator.json');
-
 const provider = new HDWalletProvider(Config.MNENOMIC, Config.RPC_SERVER);
 
+const Web3 = require('web3');
 const web3 = new Web3(provider);
+
+const generator = require('./ethereum/build/CampaignGenerator.json');
 
 const deploy = async () => {
     const accounts = await web3.eth.getAccounts();
