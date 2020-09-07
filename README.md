@@ -13,11 +13,12 @@
 
 # Important Folders
 
-1. app
+1. pages
 
 - The web app for our token raise.
 - This will communicate to our Ethereum Smart Contracts.
-- Tools: [NodeJS](https://nodejs.org), [ReactJS](https://reactjs.org/), [NextJS](https://nextjs.org)
+- Main frameworks: [NodeJS](https://nodejs.org) and [ReactJS](https://reactjs.org/)
+- Routing: [NextJS](https://nextjs.org)
 
 2. ethereum
 
@@ -55,26 +56,38 @@ and/or deprecated libraries.
 - Ethereum is very unstable. Moving from 1 version to another will
 break things. Use the appropriate versions.
 
+# Import Configs
+
+ Deploy to your own configuration by getting Mnemonic and RPC Server.
+
+ Testing: [Ganache](https://trufflesuite.com/ganache)
+ Live: [Infura](https://infura.io/)
+
+Open `config.json`
+
+Use in React JS (App):
+```
+import Config from '../config.json'
+Config.VARIABLE
+```
+
+Use in NodeJS (Ethereum):
+```
+const Config = require('./config.json');
+Config.VARIABLE
+```
+
 # Test and Deploy ethereum project
 
 **A. Test**
-1. `node ethereum/compile.js`
+1. `node ethereum-compile.js`
 2. `npm run test`
 
 **B. Deploy**
 
-1. Run: `node ethereum/compile.js`
-2. Deploy to your own configuration by getting Mnemonic and RPC Server from [Ganache](https://trufflesuite.com/ganache) if you want to test locally and [Infura](https://infura.io/) if you want to go live.
-
-```
-const provider = new HDWalletProvider(
-    'mechanic pear cable ship decide submit cat ten mail awake basic oval',
-    'HTTP://127.0.0.1:7545'
-)
-```
-
-3. Run: `node ethereum/deploy.js`
-4. Please take note of the contract address when you deploy. You'll be needing this a lot.
+1. Run: `node ethereum-compile.js`
+2. Run: `node ethereum-deploy.js`
+3. Please take note of the contract address when you deploy. You'll be needing this a lot.
 
 ```
 Wallet Addres of the Contract Owner:  0xA8f84f1E530560a9297eaF3be146a5f32fCCEc81

@@ -2,7 +2,6 @@
   "name": "token-raise",
   "version": "1.0.0",
   "description": "Create your own token based of Ethereum",
-  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "dev": "next dev"

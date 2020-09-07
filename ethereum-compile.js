@@ -3,12 +3,12 @@ const solc = require('solc');
 const filesystem = require('fs-extra');
 
 // Delete build directory
-const pathBuild = path.resolve(__dirname, 'build');
+const pathBuild = path.resolve(__dirname, 'ethereum/build');
 filesystem.removeSync(pathBuild);
 
 // Build Contracts
 function buildContract(filename) {
-    const filePath = path.resolve(__dirname, 'contracts', filename);
+    const filePath = path.resolve(__dirname, 'ethereum/contracts', filename);
     const fileContent = filesystem.readFileSync(filePath, 'utf8');
     const contracts = solc.compile(fileContent, 1).contracts;
 

@@ -1,5 +1,6 @@
 import React from 'react';
+import Config from '../config.json'
 
 export default () => {
-    return <h1>Index</h1>;
+    return <h1>Hello World: {Config.MNENOMIC}</h1>;
 }
