@@ -60,8 +60,7 @@ break things. Use the appropriate versions.
 
  Deploy to your own configuration by getting Mnemonic and RPC Server.
 
- Testing: [Ganache](https://trufflesuite.com/ganache)
- 
+ Testing: [Ganache](https://trufflesuite.com/ganache)<br/>
  Live: [Infura](https://infura.io/)
 
 Open `config.json`
