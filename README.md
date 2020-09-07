@@ -92,3 +92,4 @@ cd ..
 
 1. [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide) - Udemy Course
 2. [Etherscan](https://etherscan.io) - Check Ethereum wallet and transactions
+3. [Ethereum Studio](https://studio.ethereum.org/) - Web IDE by Ethereum
