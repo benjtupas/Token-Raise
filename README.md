@@ -51,7 +51,7 @@ break things. Use the appropriate versions.
 # How to deploy ethereum?
 
 1. `node ethereum/compile.js`
-2. Deploy to your own configuration by getting wallet a Mnemonic and RPC Server from [Ganache](trufflesuite.com/ganache) if you want to test locally and [Infura](https://infura.io/) if you want to go live.
+2. Deploy to your own configuration by getting Mnemonic and RPC Server from [Ganache](trufflesuite.com/ganache) if you want to test locally and [Infura](https://infura.io/) if you want to go live.
 
 ```
 const provider = new HDWalletProvider(
