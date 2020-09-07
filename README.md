@@ -1,7 +1,7 @@
 # Goals of the project
 
 - Create a token based on Ethereum
-- Develop token raise website
+- Launch token raise website
 
 # Progress so Far
 
@@ -13,14 +13,14 @@
 
 # Important Folders
 
-1. pages
+1. pages (App)
 
 - The web app for our token raise.
 - This will communicate to our Ethereum Smart Contracts.
 - Main frameworks: [NodeJS](https://nodejs.org) and [ReactJS](https://reactjs.org/)
 - Routing: [NextJS](https://nextjs.org)
 
-2. ethereum
+2. ethereum (Contracts)
 
 - This is where we code our Smart Contracts on top of Ethereum
 - I use [Remix](http://remix.ethereum.org/) by Ethereum tool write and
@@ -32,14 +32,20 @@ test contracts before adding it to the project
 - Compile the contracts: `node ethereum/compile.js`
 - Run the tests: `npm run test`
 
-# Configs
+# Set-up
 
-Deploy to your own configuration by getting Mnemonic and RPC Server.
+1. Install dependencies
+```
+npm install
+```
 
+2. Configure Testing and Live
+
+Deploy to your own configuration by getting the Mnemonics and RPC Server links from the following providers:
 - Testing: [Ganache](https://trufflesuite.com/ganache)
 - Live: [Infura](https://infura.io/)
 
-Open `config.json`. (I use JSON format because it's easy for me to use on both ReactJS and NodeJS)
+Then, open `config.json` and update the values. I use JSON format because it's easy to use on both ReactJS and NodeJS.
 
 Use in React JS (App):
 ```
