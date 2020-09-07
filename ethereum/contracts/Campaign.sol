@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-contract CampaignContractGenerator {
+contract CampaignGenerator {
     address[] public campaigns;
 
     function create() public {

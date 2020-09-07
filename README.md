@@ -51,7 +51,7 @@ break things. Use the appropriate versions.
 
 **B. Deploy**
 
-1. `node ethereum/compile.js`
+1. Run: `node ethereum/compile.js`
 2. Deploy to your own configuration by getting Mnemonic and RPC Server from [Ganache](trufflesuite.com/ganache) if you want to test locally and [Infura](https://infura.io/) if you want to go live.
 
 ```
@@ -61,7 +61,7 @@ const provider = new HDWalletProvider(
 )
 ```
 
-3. `node ethereum/deploy.js`
+3. Run: `node ethereum/deploy.js`
 4. Please take note of the contract address when you deploy. You'll be needing this a lot.
 
 ```
@@ -69,13 +69,7 @@ Wallet Addres of the Contract Owner:  0xA8f84f1E530560a9297eaF3be146a5f32fCCEc81
 Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
 ```
 
-# Resources to Get Started
+# Important Links
 
 1. [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide) - Udemy Course
 2. [Etherscan](https://etherscan.io) - Check Ethereum wallet and transactions
-
-# Node JS Commands
-
-1. Run locally - `npm run start`
-2. Run test scripts - `npm run test`
-3. Deploy - `node deploy.js`

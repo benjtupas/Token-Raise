@@ -5,7 +5,7 @@ const Web3 = require('web3');
 const web3 = new Web3(ganache.provider());
 
 const compiledCampaign = require('../ethereum/build/Campaign.json');
-const compiledGenerator = require('../ethereum/build/CampaignContractGenerator.json');
+const compiledGenerator = require('../ethereum/build/CampaignGenerator.json');
 
 let accounts;
 let generator;
