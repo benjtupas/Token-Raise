@@ -9,7 +9,7 @@
 2. [Company expenses budget requests and investors can approve](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/Campaign.sol)
 3. Connect Ethereum Contract with React JS
 
-[How Things Interact](https://docs.google.com/drawings/d/106I4V7npIZPV_vP5n-MIhq2WxkGgLYVXPYpcg0Jk25Q/edit)
+[How Things Interact](https://docs.google.com/drawings/d/106I4V7npIZPV_vP5n-MIhq2WxkGgLYVXPYpcg0Jk25Q/edit?usp=sharing)
 
 # Important Folders
 
