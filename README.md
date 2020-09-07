@@ -3,11 +3,13 @@
 - Create a token based on Ethereum
 - Develop token raise website
 
-# Progress so Far 
+# Progress so Far
 
 1. [Sample Staking](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/TokenSale.sol)
 2. [Company expenses budget requests and investors can approve](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/Campaign.sol)
 3. Connect Ethereum Contract with React JS
+
+[How Things Interact](https://docs.google.com/drawings/d/106I4V7npIZPV_vP5n-MIhq2WxkGgLYVXPYpcg0Jk25Q/edit)
 
 # Important Folders
 
@@ -73,6 +75,14 @@ const provider = new HDWalletProvider(
 ```
 Wallet Addres of the Contract Owner:  0xA8f84f1E530560a9297eaF3be146a5f32fCCEc81
 Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
+```
+
+# Run the app
+
+```
+cd app
+npm run start
+cd ..
 ```
 
 # Important Links
