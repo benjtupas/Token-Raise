@@ -43,12 +43,13 @@ and/or deprecated libraries.
 - Ethereum is very unstable. Moving from 1 version to another will
 break things. Use the appropriate versions.
 
-# How to run test ethereum?
+# Test and Deploy ethereum?
 
+** Test **
 1. `node ethereum/compile.js`
 2. `npm run test`
 
-# How to deploy ethereum?
+** Deploy **
 
 1. `node ethereum/compile.js`
 2. Deploy to your own configuration by getting Mnemonic and RPC Server from [Ganache](trufflesuite.com/ganache) if you want to test locally and [Infura](https://infura.io/) if you want to go live.
