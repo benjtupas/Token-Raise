@@ -37,13 +37,16 @@ test contracts before adding it to the project
 2. Create your project folder and go there. - `cd YOUR_PROJECT_FOLDER`
 3. Initialize project and install dependencies
 
-- Initialiaze - `npm init` (Call this only when you just started the project. Don't call this if you're forking)
+- Initialiaze - `npm init` (Don't call this if you're just forking the project. Call this only if you're creating a project)
 - Solidity - `npm install solc@0.4.25`
 - Web3 - `npm install --save web3@1.0.0-beta.35`
 - Ganache (test blockchain locally) - `npm install --save ganache-cli`
 - Mocha (testing) - `npm install --save mocha`
 - Managing filesystem - `npm install --save fs-extra`
 - Truffle wallet product - `npm install --save truffle-hdwallet-provider@0.0.3`
+- React - `npm install --save react`
+- NextJS (for routing) - `npm install --save next`
+- ReactDOM - `npm install --save react-dom`
 
 Notes:
 - You can install all of them in one go but it would be better
