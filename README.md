@@ -45,11 +45,11 @@ break things. Use the appropriate versions.
 
 # Test and Deploy ethereum?
 
-** Test **
+**Test**
 1. `node ethereum/compile.js`
 2. `npm run test`
 
-** Deploy **
+**Deploy**
 
 1. `node ethereum/compile.js`
 2. Deploy to your own configuration by getting Mnemonic and RPC Server from [Ganache](trufflesuite.com/ganache) if you want to test locally and [Infura](https://infura.io/) if you want to go live.
