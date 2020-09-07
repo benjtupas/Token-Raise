@@ -1,6 +1,6 @@
 # Goals of the project:
 
-- Create token based of Ethereum
+- Create a token based on Ethereum
 - Develop token raise website
 
 # Important Folders
@@ -51,7 +51,17 @@ break things. Use the appropriate versions.
 # How to deploy ethereum?
 
 1. `node ethereum/compile.js`
-1. `node ethereum/deploy.js`
+2. Get wallet a Mnemonic and RPC Server from [Ganache](trufflesuite.com/ganache)
+if you want to test locally and [Infura](https://infura.io/) if you want to go live.
+
+```
+const provider = new HDWalletProvider(
+    'mechanic pear cable ship decide submit cat ten mail awake basic oval',
+    'HTTP://127.0.0.1:7545'
+)
+```
+
+3. `node ethereum/deploy.js`
 
 # Resources to Get Started
 
