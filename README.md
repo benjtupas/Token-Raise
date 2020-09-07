@@ -3,7 +3,7 @@
 - Create a token based on Ethereum
 - Launch a website to raise tokens
 
-# Progress so Far
+# Progress so far
 
 1. [Sample Staking](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/TokenSale.sol)
 2. [Company expenses budget requests and investors can approve](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/Campaign.sol)
@@ -11,7 +11,7 @@
 
 [How Things Interact](https://docs.google.com/drawings/d/106I4V7npIZPV_vP5n-MIhq2WxkGgLYVXPYpcg0Jk25Q/edit?usp=sharing)
 
-# Important Folders
+# Important folders
 
 1. pages (App)
 
@@ -20,7 +20,7 @@
 - Main frameworks: [NodeJS](https://nodejs.org) and [ReactJS](https://reactjs.org/)
 - Routing: [NextJS](https://nextjs.org)
 
-2. ethereum (Contracts)
+2. ethereum (Smart Contracts)
 
 - This is where we code our Smart Contracts on top of Ethereum
 - I use [Remix](http://remix.ethereum.org/) by Ethereum tool write and
