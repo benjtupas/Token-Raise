@@ -43,19 +43,19 @@ and/or deprecated libraries.
 - Ethereum is very unstable. Moving from 1 version to another will
 break things. Use the appropriate versions.
 
-# How to run test `ethereum`?
+# How to run test ethereum?
 
 1. `node ethereum/compile.js`
 2. `npm run test`
 
-# How to deploy `ethereum`?
+# How to deploy ethereum?
 
 1. `node ethereum/compile.js`
 1. `node ethereum/deploy.js`
 
 # Resources to Get Started
 
-1. Udemy Course: [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide)
+1. [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide) - Udemy Course
 2. [Etherscan](https://etherscan.io) - Check Ethereum wallet and transactions
 
 # Node JS Commands
