@@ -63,7 +63,7 @@ Deploy to your own configuration by getting Mnemonic and RPC Server.
 Testing: [Ganache](https://trufflesuite.com/ganache)
 Live: [Infura](https://infura.io/)
 
-Open `config.json`
+Open `config.json`. (I use JSON format because it's easy for me to use on both ReactJS and NodeJS)
 
 Use in React JS (App):
 ```
