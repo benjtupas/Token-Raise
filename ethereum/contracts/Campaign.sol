@@ -27,7 +27,7 @@ contract Campaign {
     address public manager;
     Request[] public requests;
     mapping(address => bool) public investors;
-    uint numberOfInvestors;
+    uint public numberOfInvestors;
 
     function Campaign(address creator) public {
         manager = creator;
@@ -36,9 +36,11 @@ contract Campaign {
     function invest() public payable restrictManager {
         require(msg.value >= 1 ether);
 
+        if(!investors[msg.sender]) {
+            numberOfInvestors++;
+        }
+
         investors[msg.sender] = true;
-        manager.transfer(address(this).balance);
-        numberOfInvestors++;
     }
 
     function createRequest( address recipient,

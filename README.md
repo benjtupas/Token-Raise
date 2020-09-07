@@ -22,11 +22,10 @@ test contracts before adding it to the project
 - Compile the contracts: `node ethereum/compile.js`
 - Run the tests: `npm run test`
 
-# Steps to create app:
+# How to set-up the Project
 
 1. Install [NodeJS](https://nodejs.org)
 2. Create your project folder and go there. - `cd YOUR_PROJECT_FOLDER`
-
 3. Initialize project and install dependencies
 
 - Initialiaze - `npm init`
@@ -35,6 +34,7 @@ test contracts before adding it to the project
 - Ganache (test blockchain locally) - `npm install --save ganache-cli`
 - Mocha (testing) - `npm install --save mocha`
 - Managing filesystem - `npm install --save fs-extra`
+- Truffle wallet product - `npm install --save truffle-hdwallet-provider@0.0.3`
 
 Notes:
 - You can install all of them in one go but it would be better
@@ -43,9 +43,20 @@ and/or deprecated libraries.
 - Ethereum is very unstable. Moving from 1 version to another will
 break things. Use the appropriate versions.
 
+# How to run test `ethereum`?
+
+1. `node ethereum/compile.js`
+2. `npm run test`
+
+# How to deploy `ethereum`?
+
+1. `node ethereum/compile.js`
+1. `node ethereum/deploy.js`
+
 # Resources to Get Started
 
 1. Udemy Course: [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide)
+2. [Etherscan](https://etherscan.io) - Check Ethereum wallet and transactions
 
 # Node JS Commands
 

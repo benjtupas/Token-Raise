@@ -18,7 +18,7 @@ beforeEach(async () => {
     .send({from: accounts[0], gas: '1000000'});
 })
 
-describe('TokenSale Contract', () => {
+describe('TokenSale', () => {
 
   it('Deploys a contract', () => {
     assert.ok(tokenSale.options.address);
