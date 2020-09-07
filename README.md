@@ -15,8 +15,9 @@
 
 1. app
 
-- The web app for our token raise built on React and Node JS.
-- This will communicate to our Ethereum Smart Contracts
+- The web app for our token raise.
+- This will communicate to our Ethereum Smart Contracts.
+- Tools: [NodeJS](https://nodejs.org), [ReactJS](https://reactjs.org/), [NextJS](https://nextjs.org)
 
 2. ethereum
 
@@ -78,6 +79,8 @@ Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
 ```
 
 # Run the app
+
+I paste this in 1 go so I'll go back to the root folder always.
 
 ```
 cd app
