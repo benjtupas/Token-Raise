@@ -41,7 +41,7 @@ npm install
 
 2. Configure Testing and Live
 
-Deploy to your own configuration by getting the Mnemonics and RPC Server links from the following providers:
+Deploy your own configuration by getting the Mnemonics and RPC Server links from the following providers:
 - Testing: [Ganache](https://trufflesuite.com/ganache)
 - Live: [Infura](https://infura.io/)
 
@@ -68,6 +68,7 @@ Config.VARIABLE
 **B. Deploy**
 1. Run: `node ethereum-compile.js`
 2. Run: `node ethereum-deploy.js`
+Don't forget to run Ganache if you're testing on local.
 3. Copy the Contract Address and update the `CONTRACT_ADDRESS` on `config.json`.
 
 ```
@@ -78,7 +79,7 @@ Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
 # Run the pages
 
 ```
-
+npm run dev
 ```
 
 # Set-up from Scratch
@@ -88,15 +89,22 @@ Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
 3. Initialize project and install dependencies
 
 - Initialiaze - `npm init` (Don't call this if you're just forking the project. Call this only if you're creating a project)
-- Solidity - `npm install solc@0.4.25`
+
+Ethereum
+- Solidity - `npm install --save solc@0.4.25`
 - Web3 - `npm install --save web3@1.0.0-beta.35`
 - Ganache (test blockchain locally) - `npm install --save ganache-cli`
-- Mocha (testing) - `npm install --save mocha`
 - Managing filesystem - `npm install --save fs-extra`
 - Truffle wallet product - `npm install --save truffle-hdwallet-provider@0.0.3`
+
+App
 - React - `npm install --save react`
 - NextJS (for routing) - `npm install --save next`
 - ReactDOM - `npm install --save react-dom`
+- React Semantic UI - `npm install --save semantic-ui-react`
+
+Testing
+- Mocha (testing) - `npm install --save mocha`
 
 Notes:
 - You can install all of them in one go but it would be better

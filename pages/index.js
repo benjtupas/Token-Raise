@@ -1,12 +1,16 @@
-import React from 'react';
-import Config from '../config.json'
+import React, { Component } from 'react';
+import contract from '../ethereum/campaign-generator';
 
-export default () => {
-    return(
-        <div>
-            <h1>Hello World: {Config.MNENOMIC}</h1>
-            <h1>Hello World: {Config.RPC_SERVER}</h1>
-            <h1>Hello World: {Config.CONTRACT_ADDRESS}</h1>
-        </div>
-    );
+class Index extends Component {
+    static async getInitialProps() {
+        const campaigns = await contract.methods.getCampaigns().call();
+
+        return { campaigns : campaigns };
+    }
+
+    render() {
+        return <h1>Contract: {this.props.campaigns}</h1>
+    }
 }
+
+export default Index
