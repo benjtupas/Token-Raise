@@ -1,5 +1,7 @@
 {
     "MNENOMIC": "mechanic pear cable ship decide submit cat ten mail awake basic oval",
+
     "RPC_SERVER": "http://127.0.0.1:7545",
-    "CONTRACT_ADDRESS": "0xC766e4a8BE475F19FA03b06a496037A014EC4BB8"
+
+    "CONTRACT_ADDRESS": "0x9223d89819a080dB5616Fa9D15e7F9CeE5bDB9b9"
 }

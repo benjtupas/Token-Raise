@@ -3,8 +3,8 @@ pragma solidity ^0.4.17;
 contract CampaignGenerator {
     address[] public campaigns;
 
-    function create() public {
-        address campaign = new Campaign(msg.sender);
+    function create(string title) public {
+        address campaign = new Campaign(msg.sender, title);
         campaigns.push(campaign);
     }
 
@@ -25,12 +25,14 @@ contract Campaign {
     }
 
     address public manager;
+    string title;
     Request[] public requests;
     mapping(address => bool) public investors;
     uint public numberOfInvestors;
 
-    function Campaign(address creator) public {
+    function Campaign(address creator, string newTitle) public {
         manager = creator;
+        title = newTitle;
     }
 
     function invest() public payable restrictManager {

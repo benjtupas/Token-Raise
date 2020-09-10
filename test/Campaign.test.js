@@ -25,7 +25,7 @@ before(async () => {
         gas: '1000000'
     });
 
-    await generator.methods.create().send({
+    await generator.methods.create("Campaign Title").send({
         from: accounts[0],
         gas: '1000000'
     });

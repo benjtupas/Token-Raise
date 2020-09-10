@@ -8,6 +8,7 @@
 1. [Sample Staking](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/TokenSale.sol)
 2. [Company expenses budget requests and investors can approve](https://github.com/benjtupas/Token-Raise/blob/master/ethereum/contracts/Campaign.sol)
 3. Connect Ethereum Contract with React JS
+4. Deploy on Google Cloud at [cryptofund.appspot.com](https://cryptofund.appspot.com)
 
 [How Things Interact](https://docs.google.com/drawings/d/106I4V7npIZPV_vP5n-MIhq2WxkGgLYVXPYpcg0Jk25Q/edit?usp=sharing)
 
@@ -19,6 +20,7 @@
 - This will communicate to our Ethereum Smart Contracts.
 - Main frameworks: [NodeJS](https://nodejs.org) and [ReactJS](https://reactjs.org/)
 - Routing: [NextJS](https://nextjs.org)
+- Design: [Semantic UI](https://react.semantic-ui.com/)
 
 2. ethereum (Smart Contracts)
 
@@ -26,7 +28,7 @@
 - I use [Remix](http://remix.ethereum.org/) by Ethereum tool write and
 test contracts before adding it to the project
 
-3. test
+3. test (Automated Testing)
 
 - To automate testing using [Mocha](https://mochajs.org/)
 - Compile the contracts: `node ethereum/compile.js`
@@ -72,8 +74,8 @@ Don't forget to run Ganache if you're testing on local.
 3. Copy the Contract Address and update the `CONTRACT_ADDRESS` on `config.json`.
 
 ```
-Wallet Addres of the Contract Owner:  0xA8f84f1E530560a9297eaF3be146a5f32fCCEc81
-Contact Address:  0x67561c5B5e5A22eF92366FDDd072060F4d7CA30c
+Wallet Addres of the Contract Owner:  ABC123
+Contact Address:  ABC123
 ```
 
 # Run the pages
@@ -100,6 +102,8 @@ Ethereum
 App
 - React - `npm install --save react`
 - NextJS (for routing) - `npm install --save next`
+- [Next Route](https://github.com/fridays/next-routes) (custom routes) - `npm install --save next-routes`
+
 - ReactDOM - `npm install --save react-dom`
 - React Semantic UI - `npm install --save semantic-ui-react`
 
